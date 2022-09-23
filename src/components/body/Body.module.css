@@ -1,0 +1,13 @@
+.instBody {
+  width: 100vw;
+  margin-top: 24px;
+}
+
+.instBodyDiv {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: flex-start;
+}

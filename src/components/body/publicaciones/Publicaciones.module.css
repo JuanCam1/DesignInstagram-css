@@ -1,0 +1,146 @@
+.instPublicaciones {
+  width: 100%;
+  height: auto;
+  margin-top: 16px;
+  border-radius: 5px;
+}
+
+.instPublicacion {
+  font-size: 14px;
+  border: 1px solid #dbdbdb;
+  padding-bottom: 10px;
+  margin-bottom: 16px;
+  border-radius: 5px;
+}
+
+.instPublicacion svg {
+  cursor: pointer;
+}
+
+.publicHeader {
+  display: flex;
+  padding: 16px 10px;
+  justify-content: space-between;
+}
+
+.headerImg {
+  display: flex;
+  gap: 10px;
+}
+.headerImg span {
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+.headerImg div:first-child {
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.publicHeader img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.publicBody {
+  width: 470px;
+  height: 587px;
+  overflow: hidden;
+}
+
+.publicBody img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.publicIcons {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px 0 10px;
+  margin-bottom: 12px;
+}
+
+.publicIcons > div:first-child {
+  display: flex;
+  gap: 16px;
+}
+
+.publicLikes {
+  margin-bottom: 8px;
+  padding: 0 10px;
+  font-weight: bold;
+}
+
+.publicDescrip {
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 24px;
+}
+
+.publicDescrip p:nth-child(2) {
+  color: #8e8e8e;
+}
+
+.publicDescrip div {
+  color: #8e8e8e;
+  text-transform: uppercase;
+  font-size: 10px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.publicDescrip p span {
+  font-weight: bold;
+  color: #262626;
+  font-size: 14px;
+  text-transform: lowercase;
+}
+
+.publicDescrip div span {
+  color: #262626;
+  font-size: 13px;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.publicComment {
+  display: flex;
+  padding: 0 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.publicComment > div:first-child {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+}
+
+.publicComment input[type='text'] {
+  width: 200%;
+  color: black;
+  background-color: inherit;
+  border: none;
+}
+
+.publicComment input[type='text']:focus {
+  border: none;
+  outline: none;
+}
+.publicComment input[type='text']::placeholder {
+  color: #888787;
+}
+
+.publicComment > div:last-child {
+  color: #b1defc;
+  font-weight: bold;
+  cursor: pointer;
+}

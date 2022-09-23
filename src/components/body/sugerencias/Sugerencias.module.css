@@ -1,0 +1,153 @@
+
+.instSuge {
+  width: 319px;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.instSugeCont {
+  width: 100%;
+  flex-direction: column;
+}
+
+.instSugePerfil {
+  padding-top: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.instSugePerfilImg {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.instSugePerfilName span {
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.instSugePerfilName {
+  padding-left: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.instSugePerfilName div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+}
+.instSugePerfilName div:nth-child(1) span:nth-child(2) {
+  color: #8e8e8e;
+}
+
+.instSugePerfilName div:nth-child(2) {
+  margin-left: 102px;
+}
+
+.instSugePerfilName div:nth-child(2) span {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: #0095f6;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.instSugePerfil img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.instSugeParaTi .instSugeParaTiSug {
+  display: flex;
+  justify-content: space-between;
+  margin: 14px 0;
+}
+
+.instSugeParaTi .instSugeParaTiSug p {
+  font-size: 14px;
+  color: #8e8e8e;
+  font-weight: 700;
+}
+
+.instSugeParaTi .instSugeParaTiSug span {
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.instSugeParaTiSugs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.instSugeParaTiSugs p:first-of-type {
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-block;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 3px;
+}
+.instSugeParaTiSugs p:first-of-type + p {
+  display: inline-block;
+  width: 100%;
+  font-size: 12px;
+  color: #8e8e8e;
+}
+
+.instSugeParaTiSugs div:first-of-type {
+  display: flex;
+}
+
+.instImgSug {
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.instSugeParaTiSugs img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.instImgSug + div {
+  padding-left: 8px;
+  line-height: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.instSugeParaTiSugs span {
+  color: #0095f6;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.instOpciones {
+ font-size: 12px;
+ color: #c7c7c7;
+ margin-top: 30px;
+}
+
+.instOpciones > div{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  line-height: 1;
+  margin-bottom: 24px;
+}
+
+.instOpciones > div div{
+  cursor: pointer;
+}

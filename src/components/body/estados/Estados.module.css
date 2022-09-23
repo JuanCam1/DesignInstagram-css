@@ -1,0 +1,53 @@
+
+.instEstados {
+  padding: 16px 0 16px 16px;
+  border-radius: 5px;
+  border: 1px solid #dbdbdb;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 470px;
+  gap: 5px;
+}
+
+.instEstado div {
+  display: grid;
+  place-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}
+
+.instEstado div div {
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+  background: white;
+  z-index: 2;
+}
+
+.instEstado img {
+  cursor: pointer;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+.instEstado span {
+  font-size: 12px;
+  margin-top: 5px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
