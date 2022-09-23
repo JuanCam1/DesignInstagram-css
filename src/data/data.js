@@ -14,7 +14,7 @@ export const users = [
   {
     id: 2,
     name: 'Camilo12',
-    url: 'https://randomuser.me/api/portraits/men/1.jpg'
+    url: 'https://randomuser.me/api/portraits/men/14.jpg'
   },
   {
     id: 3,
@@ -87,7 +87,7 @@ export const publicaciones= [
   {
     id: 2,
     name: 'Camilo12',
-    url: 'https://randomuser.me/api/portraits/men/1.jpg',
+    url: 'https://randomuser.me/api/portraits/men/14.jpg',
     publication: img2,
     likes: 150,
     comment: 28,

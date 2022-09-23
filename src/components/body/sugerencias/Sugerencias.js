@@ -1,8 +1,8 @@
 import React from 'react';
 import style from './Sugerencias.module.css';
-import perfil from '../../../assets/perfil.jpg';
 
 const Sugerencias = ({sugerencias}) => {
+  const perfil ='https://randomuser.me/api/portraits/men/1.jpg';
   return (
     <div className={style.instSuge}>
       <div className={style.instSugeCont}>

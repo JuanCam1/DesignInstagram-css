@@ -1,7 +1,7 @@
 import style from './HeaderInst.module.css';
-import perfil from '../../assets/perfil.jpg';
 
 const HeaderInst = () => {
+  const perfil ='https://randomuser.me/api/portraits/men/1.jpg';
   return (
     <header className={style.instHeader}>
       <div className={style.instHeaderCont}>
